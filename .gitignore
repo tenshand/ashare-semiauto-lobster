@@ -1,0 +1,6 @@
+config.json
+ashare_state.db
+daily_summary_latest.txt
+__pycache__/
+*.pyc
+.DS_Store

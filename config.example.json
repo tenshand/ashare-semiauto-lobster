@@ -1,0 +1,22 @@
+{
+  "symbols": ["sh600621", "sz300857"],
+  "bar_period": "15",
+  "history_limit": 120,
+  "ma_fast": 5,
+  "ma_slow": 20,
+  "breakout_buffer_pct": 0.002,
+  "stop_loss_pct": 0.02,
+  "take_profit_pct": 0.04,
+  "position_size_rmb": 100000,
+  "symbol_pause_seconds": 1,
+  "notify": {
+    "enabled": true,
+    "provider": "openclaw",
+    "openclaw": {
+      "binary": "openclaw",
+      "channel": "openclaw-weixin",
+      "target": "your_wechat_target_here",
+      "account": "your_openclaw_account_here"
+    }
+  }
+}
